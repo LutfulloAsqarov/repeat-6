@@ -1,0 +1,36 @@
+#product {
+    padding-top: 114px;
+    padding-bottom: 150px;
+    background-color: var(--backgroundColor);
+}
+
+.product__container {
+    flex-direction: column;
+}
+
+.product__title {
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 66px;
+    max-width: 540px;
+}
+
+.product__cards {
+    gap: 46px;
+    padding-bottom: 34px;
+}
+
+.product__cards__card__title {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.product__btn {
+    transition: .4s;
+    border: 2px solid var(--bgColor);
+}
+
+.product__btn:hover {
+    background-color: var(--whiteColor);
+    color: var(--bgColor);
+}

@@ -1,0 +1,15 @@
+:root {
+    --primaryColor: #173A56;
+    --secondaryColor: white;
+    --whiteColor: #fff;
+    --bgColor: #02897A;
+    --darkModeColor: black;
+    --backgroundColor: #ededed
+}
+
+.dark {
+    --primaryColor: white;
+    --secondaryColor: black;
+    --darkModeColor: yellow;
+    --backgroundColor: black;
+}

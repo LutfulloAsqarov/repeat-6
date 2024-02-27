@@ -1,0 +1,68 @@
+#hero {
+    padding-top: 105px;
+    background-color: var(--backgroundColor);
+}
+
+.hero__left {
+    width: 40%;
+}
+
+.hero__left__title {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--primaryColor);
+}
+
+.hero__left__desc {
+    padding-top: 18px;
+    padding-bottom: 45px;
+    line-height: 28px;
+}
+
+.hero__left__btns {
+    justify-content: start;
+    gap: 30px;
+}
+
+.hero__left__btns__video {
+    background-color: transparent;
+    color: var(--bgColor);
+    text-decoration: underline;
+    padding: 10px 25px;
+    gap: 8.5px;
+}
+
+/* .hero__left__btns__video img {
+    padding: 15px;
+    background-color: var(--whiteColor);
+    border-radius: 20px;
+} */
+
+/* .hero__left__btns__video:hover {
+    background-color: var(--bgColor);
+    color: var(--whiteColor);
+} */
+
+
+.hero__left__btns__video:hover img {
+    background-color: #fff;
+}
+
+.hero__left__btns__start {
+    border: 2px solid var(--bgColor);
+    transition: .4s;
+}
+
+.hero__left__btns__start:hover {
+    background-color: transparent;
+    color: var(--bgColor);
+}
+
+.hero__right {
+    width: 50%;
+}
+
+.hero__right img {
+    width: 100%;
+}
